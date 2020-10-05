@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author lendle
  */
-@WebServlet(name = "HelloServlet", urlPatterns = {"/"})// *代表全部都可以
+@WebServlet(name = "HelloServlet", urlPatterns = {"/"})// *代表全部都可以 /第一層是可以和*同樣效果but第二層是無法的
 public class HelloServlet extends HttpServlet {
     
     @Override
